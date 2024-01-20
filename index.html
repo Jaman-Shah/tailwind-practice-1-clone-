@@ -4,6 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practice-1</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body></body>
+  <body class="font-serif">
+    <header class="text-white bg-[url('/banner.jpg')]">
+      <div id="container" class="max-w-[1170px] my-0 mx-auto">
+        <nav class="flex">
+          <div id="left" class="w-1/2 flex gap-10 items-center">
+            <h1 class="text-4xl">Jaman Shah</h1>
+            <ul class="flex gap-4">
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
+          <div id="right" class="w-1/2 flex justify-end gap-2">
+            <button class="btn btn-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+            <button class="btn btn-circle btn-outline">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+          </div>
+        </nav>
+        <div id="banner"></div>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>
